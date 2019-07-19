@@ -10,9 +10,10 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { FontAwesome } from "@expo/vector-icons";
 import Constants from 'expo-constants';
 
-import Hamburger from "../../assets/hamburger.png";
+import Hamburger from "../../assets/images/hamburger.png";
 import { color } from "../config";
 import CardMusic from "../components/CardMusic";
+import Controller from "../components/Controller";
 
 const NowPlaying = () => {
   return (
@@ -22,6 +23,7 @@ const NowPlaying = () => {
       >
         <View style={styles.content}>
           <CardMusic author="Selena Gomez" title="Taki Taki"/>
+          <Controller/>
         </View>
       </LinearGradient>
   )
@@ -61,7 +63,8 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    alignItems: "center"
+    alignItems: "center",
+    justifyContent: "space-around",
   }
 });
 
