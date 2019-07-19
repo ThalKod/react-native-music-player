@@ -12,6 +12,7 @@ import Constants from 'expo-constants';
 
 import Hamburger from "../../assets/hamburger.png";
 import { color } from "../config";
+import CardMusic from "../components/CardMusic";
 
 const NowPlaying = () => {
   return (
@@ -20,7 +21,7 @@ const NowPlaying = () => {
           style={styles.container}
       >
         <View style={styles.content}>
-          <Text>Content !</Text>
+          <CardMusic author="Selena Gomez" title="Taki Taki"/>
         </View>
       </LinearGradient>
   )
@@ -59,7 +60,8 @@ const styles = StyleSheet.create({
     paddingTop: Constants.statusBarHeight + 50
   },
   content: {
-    flex: 1
+    flex: 1,
+    alignItems: "center"
   }
 });
 
