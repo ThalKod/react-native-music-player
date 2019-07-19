@@ -17,8 +17,8 @@ const CardMusic = ({ imageUrl, title, author }) => {
           <Image
               style={{
                 alignSelf: 'center',
-                height: 300,
-                width: 330,
+                height: "55%",
+                width: "80%",
                 borderWidth: 1,
                 borderRadius: 15
               }}
@@ -40,7 +40,8 @@ CardMusic.propTypes = {
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: "center"
+    alignItems: "center",
+    width: "100%"
   },
   description: {
     marginTop: "10%",

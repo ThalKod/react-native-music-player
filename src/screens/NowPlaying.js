@@ -9,6 +9,7 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 import { FontAwesome } from "@expo/vector-icons";
 import Constants from 'expo-constants';
+import SeekBar  from "../components/SeekBar";
 
 import Hamburger from "../../assets/images/hamburger.png";
 import { color } from "../config";
@@ -23,6 +24,7 @@ const NowPlaying = () => {
       >
         <View style={styles.content}>
           <CardMusic author="Selena Gomez" title="Taki Taki"/>
+          <SeekBar/>
           <Controller/>
         </View>
       </LinearGradient>

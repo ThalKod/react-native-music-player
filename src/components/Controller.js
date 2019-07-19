@@ -3,7 +3,8 @@ import {
   View,
     Image,
     TouchableOpacity,
-    StyleSheet
+    StyleSheet,
+    Platform
 } from "react-native";
 import repeat from "../../assets/images/repeat.png";
 import previous from "../../assets/images/previous.png";
@@ -45,19 +46,19 @@ const Controller = () => {
 
 const styles = StyleSheet.create({
   container: {
-    width: "80%",
+    width: "70%",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
   },
   button: {
-    width: "25%",
+    width: Platform.OS === 'ios' ? "30%" : "27%",
     height: 75,
     borderRadius: 75,
   },
   gradient: {
     flex: 1,
-    borderRadius: 75,
+    borderRadius: Platform.OS === 'ios' ? 38 : 75,
     justifyContent: "center",
     alignItems: "center"
   }

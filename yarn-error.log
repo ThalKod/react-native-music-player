@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/thal/.nvm/versions/node/v10.16.0/bin/node /Users/thal/.yarn/bin/yarn.js add expo-constants
+  /Users/thal/.nvm/versions/node/v10.16.0/bin/node /Users/thal/.yarn/bin/yarn.js add react-native-slider
 
 PATH: 
   /Users/thal/.nvm/versions/node/v10.16.0/bin:/Users/thal/.yarn/bin:/Users/thal/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/thal/Library/Android/sdk/tools:/Users/thal/Library/Android/sdk/tools/bin:/Users/thal/Library/Android/sdk/platform-tools:/Users/thal/Library/Android/sdk/emulator
@@ -35,6 +35,7 @@ npm manifest:
       "eslint-plugin-jsx-a11y": "^6.2.3",
       "eslint-plugin-react": "^7.14.2",
       "expo": "^33.0.0",
+      "expo-constants": "^5.0.1",
       "expo-linear-gradient": "^5.0.1",
       "prop-types": "^15.7.2",
       "react": "16.8.3",
@@ -2937,7 +2938,7 @@ Lockfile:
       lodash "^4.6.0"
       prop-types "^15.6.0"
   
-  expo-constants@~5.0.1:
+  expo-constants@^5.0.1, expo-constants@~5.0.1:
     version "5.0.1"
     resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-5.0.1.tgz#597263397f269d7fe37d9cd6b30e305c16635a00"
     integrity sha512-Ny3teALKaE/jFzBg6DHr2GOoHpwQ/OLs3q3VugZOoR6hXCeVcCEP9MyNvhgn/cheeBDAa6UIgarv2Yufb5RMqQ==
