@@ -11,7 +11,7 @@ import Slider from "react-native-slider";
 const SeekBar = ({  }) => {
   return(
       <View style={styles.container}>
-        <View style={{ flexDirection: "row", justifyContent: "space-between", marginBottom: -15}}>
+        <View style={{ flexDirection: "row", justifyContent: "space-between", marginBottom: -10}}>
           <Text style={styles.textStyle}>1:02</Text>
           <Text style={styles.textStyle}>3:32</Text>
         </View>
@@ -31,7 +31,7 @@ const SeekBar = ({  }) => {
 
 const styles = StyleSheet.create({
   container: {
-    width: "80%"
+    width: "80%",
   },
   progressBar: {
     height: 8,
