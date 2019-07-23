@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
     View,
     Text,
     TouchableOpacity,
     Image,
-    StyleSheet
+    StyleSheet,
 } from "react-native";
 import { LinearGradient } from 'expo-linear-gradient';
 import { FontAwesome } from "@expo/vector-icons";
@@ -15,8 +15,19 @@ import Hamburger from "../../assets/images/hamburger.png";
 import { color } from "../config";
 import CardMusic from "../components/CardMusic";
 import Controller from "../components/Controller";
+import MusicListModal from "../components/MusicListModal";
 
-const NowPlaying = () => {
+const NowPlaying = ({ navigation }) => {
+  const [modalVisible, setModalVisible] = useState(false);
+
+  useEffect(() => {
+    navigation.setParams({ handleModal });
+  }, []);
+
+  const handleModal = () => {
+    setModalVisible(!modalVisible);
+  };
+
   return (
       <LinearGradient
           colors={[color.primary, color.secondary]}
@@ -27,15 +38,18 @@ const NowPlaying = () => {
           <SeekBar/>
           <Controller/>
         </View>
+        <MusicListModal isModalVisible={modalVisible} closeModal={handleModal}/>
       </LinearGradient>
   )
 };
 
-NowPlaying.navigationOptions = () => ({
+NowPlaying.navigationOptions = ({ navigation }) => ({
   title: "Now Playing",
   headerTransparent: true,
   headerLeft: (
-      <TouchableOpacity>
+      <TouchableOpacity
+        onPress={navigation.getParam("handleModal")}
+      >
         <Image source={Hamburger}/>
       </TouchableOpacity>
   ),

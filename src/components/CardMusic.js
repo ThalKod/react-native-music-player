@@ -19,8 +19,6 @@ const CardMusic = ({ imageUrl, title, author }) => {
                 alignSelf: 'center',
                 height: "75%",
                 width: "80%",
-                borderWidth: 1,
-                borderColor: "red",
                 borderRadius: 15
               }}
               source={ImageUrl}
