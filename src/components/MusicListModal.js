@@ -9,6 +9,8 @@ import {
 import PropTypes from "prop-types";
 import { MaterialIcons } from "@expo/vector-icons";
 
+import MusicSingle from "../components/MusicSingle";
+
 const MusicListModal = ({ isModalVisible, closeModal }) => {
 
   return (
@@ -31,7 +33,7 @@ const MusicListModal = ({ isModalVisible, closeModal }) => {
                   borderBottomWidth: StyleSheet.hairlineWidth,
                 }}
             />
-            <Text>Hello World !</Text>
+            <MusicSingle title="Example" artist="My Artist" imageUrl="test"/>
           </View>
         </View>
       </Modal>
