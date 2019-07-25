@@ -7,7 +7,9 @@ import {
     StyleSheet,
 } from "react-native";
 import { LinearGradient } from 'expo-linear-gradient';
-import { FontAwesome } from "@expo/vector-icons";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
+
+
 import Constants from 'expo-constants';
 import SeekBar  from "../components/SeekBar";
 

@@ -7,7 +7,8 @@ import {
   View
 } from "react-native";
 import PropTypes from "prop-types";
-import { MaterialIcons } from "@expo/vector-icons";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+
 
 import MusicSingle from "../components/MusicSingle";
 
