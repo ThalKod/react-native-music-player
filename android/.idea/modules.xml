@@ -16,6 +16,9 @@
       <module fileurl="file://$PROJECT_DIR$/../node_modules/expo-permissions/android/expo-permissions.iml" filepath="$PROJECT_DIR$/../node_modules/expo-permissions/android/expo-permissions.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/expo-permissions/android/expo-permissions.iml" filepath="$PROJECT_DIR$/../node_modules/expo-permissions/android/expo-permissions.iml" />
       <module fileurl="file://$PROJECT_DIR$/music.iml" filepath="$PROJECT_DIR$/music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-get-music-files/android/react-native-get-music-files.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-get-music-files/android/react-native-get-music-files.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/unimodules-barcode-scanner-interface/android/unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/../node_modules/unimodules-barcode-scanner-interface/android/unimodules-barcode-scanner-interface.iml" />

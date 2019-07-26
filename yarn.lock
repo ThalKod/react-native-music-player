@@ -5779,6 +5779,11 @@ react-native-gesture-handler@^1.3.0:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
+react-native-get-music-files@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-get-music-files/-/react-native-get-music-files-2.1.0.tgz#81d51ae08f659879db6fd00e982980a0dc3e5063"
+  integrity sha512-wNAhTAzzga55itaJx59RWRsPRNp8AkvFWs04gE2TzV3/z1Jbje3hB590JVjGlD6uNtVwstHcOAZwct35ZjURHg==
+
 react-native-safe-area-view@^0.14.1:
   version "0.14.6"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.14.6.tgz#9a9d37d9f8f3887d60c4076eae7b5d2319539446"

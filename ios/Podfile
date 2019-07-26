@@ -1,5 +1,7 @@
 platform :ios, '10.0'
 
+require_relative '../node_modules/react-native-unimodules/cocoapods.rb'
+
 # don't just copy and paste this, notice that the target names should align with what is already in your Podfile
 target 'music' do
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
@@ -17,8 +19,12 @@ target 'music' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  use_unimodules!
 
   target 'musicTests' do
     inherit! :search_paths

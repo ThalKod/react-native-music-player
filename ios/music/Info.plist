@@ -2,6 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<key>NSCalendarsUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to access your calendar</string>
+<key>NSCameraUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to use the camera</string>
+<key>NSContactsUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to access your contacts</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to use your location</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to use your location</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to use your location</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to access your microphone</string>
+<key>NSMotionUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to access your device's accelerometer</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>Give $(PRODUCT_NAME) permission to save photos</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Give $(PRODUCT_NAME) permission to access your photos</string>
+<key>NSRemindersUsageDescription</key>
+<string>Allow $(PRODUCT_NAME) to access your reminders</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -72,5 +94,23 @@
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
 	</array>
+	<key>UIAppFonts</key>
+    <array>
+      <string>AntDesign.ttf</string>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>Feather.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>FontAwesome5_Brands.ttf</string>
+      <string>FontAwesome5_Regular.ttf</string>
+      <string>FontAwesome5_Solid.ttf</string>
+      <string>Foundation.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>MaterialIcons.ttf</string>
+      <string>MaterialCommunityIcons.ttf</string>
+      <string>SimpleLineIcons.ttf</string>
+      <string>Octicons.ttf</string>
+      <string>Zocial.ttf</string>
+    </array>
 </dict>
 </plist>

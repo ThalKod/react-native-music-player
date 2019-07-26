@@ -3,6 +3,7 @@ package com.music;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.cinder92.musicfiles.RNReactNativeGetMusicFilesPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.facebook.react.ReactNativeHost;
@@ -33,6 +34,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNReactNativeGetMusicFilesPackage(),
             new RNGestureHandlerPackage(),
               new ModuleRegistryAdapter(mModuleRegistryProvider),
             new VectorIconsPackage()
