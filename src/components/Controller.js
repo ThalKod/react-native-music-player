@@ -11,7 +11,9 @@ import previous from "../../assets/images/previous.png";
 import next from "../../assets/images/Next.png";
 import random from "../../assets/images/random.png";
 import {LinearGradient} from "expo-linear-gradient";
-import { MaterialIcons, AntDesign  } from "@expo/vector-icons";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import AntDesign from "react-native-vector-icons/AntDesign";
+
 import { color } from "../config";
 
 const Controller = () => {

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FFmpegMediaMetadataRetriever-1.0.14.aar/e5235862c27d3bcc405257512d7a3fb3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FFmpegMediaMetadataRetriever-1.0.14.aar/e5235862c27d3bcc405257512d7a3fb3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wseemann/FFmpegMediaMetadataRetriever/1.0.14/2d4ce6b7b3f8303af3e7fd0bf5387fb59bf00d48/FFmpegMediaMetadataRetriever-1.0.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
