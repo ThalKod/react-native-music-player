@@ -73,8 +73,6 @@ const NowPlaying = ({ navigation }) => {
     setModalVisible(!modalVisible);
   };
 
-
-  console.log("Context", music);
   return (
       <MusicProvider value={music}>
         <LinearGradient
@@ -82,7 +80,7 @@ const NowPlaying = ({ navigation }) => {
             style={styles.container}
         >
           <View style={styles.content}>
-            <CardMusic author="Selena Gomez" title="Taki Taki"/>
+            <CardMusic/>
             <SeekBar/>
             <Controller/>
           </View>
