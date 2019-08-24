@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   View,
     Text,
@@ -7,31 +7,38 @@ import {
     TouchableOpacity
 } from "react-native";
 import Proptypes from "prop-types";
-import ImageUrl from "../../assets/Image.png";
+import defaultImg from "../../assets/images/default_music_cover.png";
+import MusicContext from "../context/MusicContext";
 
+const MusicSingle = ({ title, artist, imageUrl, fileName, id }) => {
+  const { changeSelected, list } = useContext(MusicContext);
 
+  const onMusicPress = () => {
+    const selected = list.find(elm => elm.id === id );
+    changeSelected(selected);
+  };
 
-const MusicSingle = ({ title, artist, imageUrl }) => {
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={onMusicPress}>
       <View style={styles.imageContainer}>
         <Image
-            source={ImageUrl}
+            source={ imageUrl ? {uri: imageUrl} : defaultImg}
             style={styles.image}
         />
       </View>
       <View style={styles.descriptionContainer}>
-        <Text style={styles.textStyle}>Hello World !</Text>
-        <Text style={[styles.textStyle, { fontSize: 16, fontFamily: "Avenir-Roman" }]}>Artist</Text>
+        <Text style={styles.textStyle}>{title || fileName.substring(0, 25) + "..."}</Text>
+        <Text style={[styles.textStyle, { fontSize: 16, fontFamily: "Avenir-Roman" }]}>{artist || "Unknown Artist" }</Text>
       </View>
     </TouchableOpacity>
   )
 };
 
 MusicSingle.propTypes = {
-  title: Proptypes.string.isRequired,
-  artist: Proptypes.string.isRequired,
-  imageUrl: Proptypes.string.isRequired
+  title: Proptypes.string,
+  artist: Proptypes.string,
+  imageUrl: Proptypes.string,
+  filename: Proptypes.string
 };
 
 const styles = StyleSheet.create({

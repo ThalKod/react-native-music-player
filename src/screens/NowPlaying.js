@@ -11,6 +11,7 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 import MusicFiles from "react-native-get-music-files";
+import { MusicProvider } from "../context/MusicContext";
 
 
 import Constants from 'expo-constants';
@@ -24,12 +25,21 @@ import MusicListModal from "../components/MusicListModal";
 
 const NowPlaying = ({ navigation }) => {
   const [modalVisible, setModalVisible] = useState(false);
-  const [musicList, setMusicList] = useState([]);
+  const [music, setMusic] = useState({ selected: {}, list: [] });
 
   useEffect(() => {
     navigation.setParams({ handleModal });
     fetchMusic();
   }, []);
+
+
+  const changeSelected = (selectedMusic) => {
+    setMusic(prevState => ({
+        ...prevState,
+        selected: selectedMusic
+    }));
+    setModalVisible(false);
+  };
 
   const fetchMusic = async () => {
     const status = await Permissions.request('storage');
@@ -49,7 +59,10 @@ const NowPlaying = ({ navigation }) => {
     };
 
      MusicFiles.getAll(options).then(tracks => {
-       setMusicList(tracks);
+       const musicsWithID = tracks.map((elm, index) => {
+         return { ...elm, id: index }
+       });
+       setMusic({...music, list: musicsWithID, changeSelected});
      }).catch(error => {
        console.log("error",error);
      })
@@ -60,18 +73,22 @@ const NowPlaying = ({ navigation }) => {
     setModalVisible(!modalVisible);
   };
 
+
+  console.log("Context", music);
   return (
-      <LinearGradient
-          colors={[color.primary, color.secondary]}
-          style={styles.container}
-      >
-        <View style={styles.content}>
-          <CardMusic author="Selena Gomez" title="Taki Taki"/>
-          <SeekBar/>
-          <Controller/>
-        </View>
-        <MusicListModal musics={musicList} isModalVisible={modalVisible} closeModal={handleModal}/>
-      </LinearGradient>
+      <MusicProvider value={music}>
+        <LinearGradient
+            colors={[color.primary, color.secondary]}
+            style={styles.container}
+        >
+          <View style={styles.content}>
+            <CardMusic author="Selena Gomez" title="Taki Taki"/>
+            <SeekBar/>
+            <Controller/>
+          </View>
+          <MusicListModal isModalVisible={modalVisible} closeModal={handleModal}/>
+        </LinearGradient>
+      </MusicProvider>
   )
 };
 
