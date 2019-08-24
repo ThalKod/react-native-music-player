@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
+import Permissions from 'react-native-permissions';
 import {
     View,
     Text,
     TouchableOpacity,
     Image,
     StyleSheet,
+    Alert
 } from "react-native";
 import { LinearGradient } from 'expo-linear-gradient';
 import FontAwesome from "react-native-vector-icons/FontAwesome";
+import MusicFiles from "react-native-get-music-files";
 
 
 import Constants from 'expo-constants';
@@ -21,10 +24,37 @@ import MusicListModal from "../components/MusicListModal";
 
 const NowPlaying = ({ navigation }) => {
   const [modalVisible, setModalVisible] = useState(false);
+  const [musicList, setMusicList] = useState([]);
 
   useEffect(() => {
     navigation.setParams({ handleModal });
+    fetchMusic();
   }, []);
+
+  const fetchMusic = async () => {
+    const status = await Permissions.request('storage');
+    if(status !== "authorized"){
+      Alert.alert(
+          "We can't access your music",
+      );
+    }
+    const options = {
+      blured : true,
+      artist : true,
+      genre : true,
+      title : true,
+      cover : true,
+      minimumSongDuration : 10000,
+      fields : ['title','albumTitle','genre','lyrics','artwork','duration']
+    };
+
+     MusicFiles.getAll(options).then(tracks => {
+       setMusicList(tracks);
+     }).catch(error => {
+       console.log("error",error);
+     })
+
+  };
 
   const handleModal = () => {
     setModalVisible(!modalVisible);
@@ -40,7 +70,7 @@ const NowPlaying = ({ navigation }) => {
           <SeekBar/>
           <Controller/>
         </View>
-        <MusicListModal isModalVisible={modalVisible} closeModal={handleModal}/>
+        <MusicListModal musics={musicList} isModalVisible={modalVisible} closeModal={handleModal}/>
       </LinearGradient>
   )
 };

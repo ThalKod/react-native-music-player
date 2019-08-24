@@ -12,7 +12,9 @@ import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 
 import MusicSingle from "../components/MusicSingle";
 
-const MusicListModal = ({ isModalVisible, closeModal }) => {
+const MusicListModal = ({ isModalVisible, closeModal, musics }) => {
+
+  console.log(musics);
 
   return (
       <Modal
