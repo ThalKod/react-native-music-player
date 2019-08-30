@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b3c839-49e4-4311-a39b-5a309bfd7db2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/CardMusic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardMusic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/NowPlaying.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/NowPlaying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RCTConvert+RNPStatus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPAudioVideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPBackgroundRefresh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPBluetooth.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPContacts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPEvent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPLocation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPMediaLibrary.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPMotion.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPNotification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPPhoto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/RNPSpeechRecognition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/ReactNativePermissions/ReactNativePermissions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RCTConvert+RNPStatus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPAudioVideo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPBackgroundRefresh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPBluetooth.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPContacts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPEvent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPLocation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPMediaLibrary.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPMotion.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPNotification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPPhoto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/RNPSpeechRecognition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/ReactNativePermissions/ReactNativePermissions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/ReactNativePermissions.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/ReactNativePermissions/ReactNativePermissions-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/ReactNativePermissions/ReactNativePermissions-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/ReactNativePermissions/ReactNativePermissions.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/music/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/music/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-music/Pods-music.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/music.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/music.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/music/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/music/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,28 +65,34 @@
     <session id="948868461">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Podfile" value="2" />
           <entry key="js" value="2199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2199" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="1" />
+          <entry key="Podfile" value="1" />
+          <entry key="js" value="3" />
+          <entry key="plist" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -49,71 +102,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="391">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/NowPlaying.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/NowPlaying.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/context/MusicContext.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CardMusic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MusicListModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MusicSingle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-24">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -144,13 +158,13 @@
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/ios/Podfile" />
         <option value="$PROJECT_DIR$/android/settings.gradle" />
         <option value="$PROJECT_DIR$/src/context/MusicContext.js" />
         <option value="$PROJECT_DIR$/src/components/MusicListModal.js" />
         <option value="$PROJECT_DIR$/src/components/MusicSingle.js" />
         <option value="$PROJECT_DIR$/src/components/CardMusic.js" />
         <option value="$PROJECT_DIR$/src/screens/NowPlaying.js" />
+        <option value="$PROJECT_DIR$/ios/Podfile" />
       </list>
     </option>
   </component>
@@ -171,9 +185,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="720" />
+    <option name="width" value="1440" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -188,11 +201,6 @@
             <path>
               <item name="music_view" type="b2602c69:ProjectViewProjectNode" />
               <item name="music_view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="music_view" type="b2602c69:ProjectViewProjectNode" />
-              <item name="music_view" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="music_view" type="b2602c69:ProjectViewProjectNode" />
@@ -274,15 +282,15 @@
       <workItem from="1565037339379" duration="327000" />
       <workItem from="1565293522974" duration="604000" />
       <workItem from="1566671832355" duration="802000" />
+      <workItem from="1567174811525" duration="2743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58989000" />
+    <option name="totallyTimeSpent" value="63192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17195208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -303,7 +311,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19656019" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.81449634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,13 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -441,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/music/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="105" column="45" lean-forward="true" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/music/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -472,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -486,27 +473,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/ios/music/Info.plist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="45" />
+        <state relative-caret-position="471">
+          <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="506">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/context/MusicContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CardMusic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MusicListModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="69">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,27 +528,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardMusic.js">
+    <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="391">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/context/MusicContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/NowPlaying.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="329">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

@@ -22,13 +22,13 @@ target 'music' do
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
   pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
 
-
-
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
   use_unimodules!
 
   pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+  pod 'react-native-track-player', :path => '../node_modules/react-native-track-player'
 
   target 'musicTests' do
     inherit! :search_paths
