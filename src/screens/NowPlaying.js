@@ -52,7 +52,7 @@ const NowPlaying = ({ navigation }) => {
   const setupPlayer = async () => {
     await TrackPlayer.setupPlayer();
     TrackPlayer.updateOptions({
-      stopWithApp: true,
+      stopWithApp: false,
       capabilities: [
         TrackPlayer.CAPABILITY_PLAY,
         TrackPlayer.CAPABILITY_PAUSE,
@@ -70,12 +70,7 @@ const NowPlaying = ({ navigation }) => {
 
   const togglePlayback = async () => {
     const currentTrack = await TrackPlayer.getCurrentTrack();
-    console.log(currentTrack);
-    if (currentTrack == null) {
-      // await TrackPlayer.reset();
-      // await TrackPlayer.add(music.list);
-      // await TrackPlayer.play();
-    } else {
+    if(currentTrack){
       if (playbackState === TrackPlayer.STATE_PAUSED) {
         await TrackPlayer.play();
       } else {
