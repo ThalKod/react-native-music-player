@@ -5,55 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7ef0380-1b89-4296-b644-b8732301d981" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RCTConvert+RNPStatus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPAudioVideo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPBackgroundRefresh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPBluetooth.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPContacts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPEvent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPLocation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPMediaLibrary.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPMotion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPNotification.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPPhoto.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/RNPSpeechRecognition.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/ReactNativePermissions/ReactNativePermissions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RCTConvert+RNPStatus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPAudioVideo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPBackgroundRefresh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPBluetooth.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPContacts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPEvent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPLocation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPMediaLibrary.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPMotion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPNotification.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPPhoto.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/RNPSpeechRecognition.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/ReactNativePermissions/ReactNativePermissions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/ReactNativePermissions.podspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/ReactNativePermissions/ReactNativePermissions-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/ReactNativePermissions/ReactNativePermissions-prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/ReactNativePermissions/ReactNativePermissions.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/music/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/music/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-music/Pods-music.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-musicTests/Pods-musicTests.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/music.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/music.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/music/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/music/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +24,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -96,8 +51,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -153,13 +106,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1567174758955" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1567598099298" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -258,10 +213,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="374" y="23" width="1066" height="827" extended-state="1" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20958512" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2861328" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -274,7 +229,7 @@
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.49928468" visible="true" weight="0.3" />
+      <window_info active="true" anchor="bottom" id="Build" order="5" sideWeight="0.49928468" visible="true" weight="0.33877552" />
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -288,12 +243,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/music/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
