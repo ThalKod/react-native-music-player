@@ -11,6 +11,9 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 import MusicFiles from "react-native-get-music-files";
+import { MusicProvider } from "../context/MusicContext";
+import TrackPlayer, { usePlaybackState } from "react-native-track-player";
+
 
 
 import Constants from 'expo-constants';
@@ -23,13 +26,79 @@ import Controller from "../components/Controller";
 import MusicListModal from "../components/MusicListModal";
 
 const NowPlaying = ({ navigation }) => {
+  const playbackState = usePlaybackState();
+
   const [modalVisible, setModalVisible] = useState(false);
-  const [musicList, setMusicList] = useState([]);
+  const [music, setMusic] = useState({ selected: {}, list: [] });
 
   useEffect(() => {
+    setupPlayer();
     navigation.setParams({ handleModal });
     fetchMusic();
+
+    const onTrackChange = TrackPlayer.addEventListener('playback-track-changed', async (data) => {
+      const track = await TrackPlayer.getTrack(data.nextTrack);
+      setMusic(prevState => ({
+        ...prevState,
+        selected: track
+      }));
+    });
+
+    return () => {
+      onTrackChange.remove();
+    }
   }, []);
+
+  const setupPlayer = async () => {
+    await TrackPlayer.setupPlayer();
+    TrackPlayer.updateOptions({
+      stopWithApp: false,
+      capabilities: [
+        TrackPlayer.CAPABILITY_PLAY,
+        TrackPlayer.CAPABILITY_PAUSE,
+        TrackPlayer.CAPABILITY_SKIP_TO_NEXT,
+        TrackPlayer.CAPABILITY_SKIP_TO_PREVIOUS,
+        TrackPlayer.CAPABILITY_STOP
+      ],
+      compactCapabilities: [
+        TrackPlayer.CAPABILITY_PLAY,
+        TrackPlayer.CAPABILITY_PAUSE
+      ]
+    });
+  };
+
+
+  const togglePlayback = async () => {
+    const currentTrack = await TrackPlayer.getCurrentTrack();
+    if(currentTrack){
+      if (playbackState === TrackPlayer.STATE_PAUSED) {
+        await TrackPlayer.play();
+      } else {
+        await TrackPlayer.pause();
+      }
+    }
+  };
+
+  const skipToNext = async () => {
+    try {
+      await TrackPlayer.skipToNext();
+    } catch (_) {}
+  };
+
+  const skipToPrevious = async () => {
+    try {
+      await TrackPlayer.skipToPrevious();
+    } catch (_) {}
+  };
+
+  const changeSelected = (selectedMusic) => {
+    setMusic(prevState => ({
+        ...prevState,
+        selected: selectedMusic
+    }));
+    TrackPlayer.skip(selectedMusic.id);
+    setModalVisible(false);
+  };
 
   const fetchMusic = async () => {
     const status = await Permissions.request('storage');
@@ -48,8 +117,12 @@ const NowPlaying = ({ navigation }) => {
       fields : ['title','albumTitle','genre','lyrics','artwork','duration']
     };
 
-     MusicFiles.getAll(options).then(tracks => {
-       setMusicList(tracks);
+     MusicFiles.getAll(options).then(async tracks => {
+       const musicsWithID = tracks.map((elm, index) => {
+         return { ...elm, id: index.toString(), url: elm.path }
+       });
+       await TrackPlayer.add(musicsWithID);
+       setMusic({...music, list: musicsWithID, changeSelected});
      }).catch(error => {
        console.log("error",error);
      })
@@ -61,17 +134,19 @@ const NowPlaying = ({ navigation }) => {
   };
 
   return (
-      <LinearGradient
-          colors={[color.primary, color.secondary]}
-          style={styles.container}
-      >
-        <View style={styles.content}>
-          <CardMusic author="Selena Gomez" title="Taki Taki"/>
-          <SeekBar/>
-          <Controller/>
-        </View>
-        <MusicListModal musics={musicList} isModalVisible={modalVisible} closeModal={handleModal}/>
-      </LinearGradient>
+      <MusicProvider value={music}>
+        <LinearGradient
+            colors={[color.primary, color.secondary]}
+            style={styles.container}
+        >
+          <View style={styles.content}>
+            <CardMusic/>
+            <SeekBar/>
+            <Controller togglePlayback={togglePlayback} skipToNext={skipToNext} skipToPrevious={skipToPrevious} />
+          </View>
+          <MusicListModal isModalVisible={modalVisible} closeModal={handleModal}/>
+        </LinearGradient>
+      </MusicProvider>
   )
 };
 

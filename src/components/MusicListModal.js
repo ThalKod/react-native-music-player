@@ -1,20 +1,26 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   StyleSheet,
   Modal,
   Text,
   TouchableOpacity,
-  View
+  View,
+    ScrollView
 } from "react-native";
 import PropTypes from "prop-types";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import MusicContext from "../context/MusicContext";
 
 
 import MusicSingle from "../components/MusicSingle";
 
-const MusicListModal = ({ isModalVisible, closeModal, musics }) => {
-
-  console.log(musics);
+const MusicListModal = ({ isModalVisible, closeModal }) => {
+  const { list } = useContext(MusicContext);
+  const renderMusic = () => {
+    return list.map((music) => {
+      return <MusicSingle id={music.id} key={music.id} title={music.title} artist={music.author} imageUrl={music.cover} fileName={music.fileName}/>
+    });
+  };
 
   return (
       <Modal
@@ -36,7 +42,11 @@ const MusicListModal = ({ isModalVisible, closeModal, musics }) => {
                   borderBottomWidth: StyleSheet.hairlineWidth,
                 }}
             />
-            <MusicSingle title="Example" artist="My Artist" imageUrl="test"/>
+            <ScrollView>
+              {list.length > 0 ? renderMusic() : (
+                  <Text>No Music on the device</Text>
+              )}
+            </ScrollView>
           </View>
         </View>
       </Modal>
