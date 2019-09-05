@@ -9,6 +9,7 @@ import Slider from "react-native-slider";
 import TrackPlayer, { useTrackPlayerProgress } from "react-native-track-player";
 import MusicContext from "../context/MusicContext";
 import { minutesAndSeconds} from "../utils";
+import { moderateScale } from "react-native-size-matters"
 
 
 
@@ -30,8 +31,6 @@ const SeekBar = ({  }) => {
     TrackPlayer.seekTo(time);
     TrackPlayer.play();
   };
-
-  console.log(remaining, musicLength);
 
   return(
       <View style={styles.container}>
@@ -61,8 +60,8 @@ const styles = StyleSheet.create({
     width: "80%",
   },
   progressBar: {
-    height: 8,
-    borderRadius: 50,
+    height: moderateScale(8),
+    borderRadius: moderateScale(50),
   },
   textStyle: {
     color: color.white

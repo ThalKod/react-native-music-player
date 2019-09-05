@@ -4,7 +4,6 @@ import {
     Image,
     TouchableOpacity,
     StyleSheet,
-    Platform
 } from "react-native";
 import repeat from "../../assets/images/repeat.png";
 import previous from "../../assets/images/previous.png";
@@ -16,6 +15,8 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 import TrackPlayer, {
   usePlaybackState,
 } from "react-native-track-player";
+import { moderateScale } from "react-native-size-matters";
+
 
 import { color } from "../config";
 
@@ -25,10 +26,10 @@ const Controller = ({ togglePlayback, skipToPrevious, skipToNext }) => {
   return (
       <View style={styles.container}>
         <TouchableOpacity>
-          <Image source={repeat}/>
+          <Image style={styles.controller} source={repeat}/>
         </TouchableOpacity>
         <TouchableOpacity onPress={skipToPrevious}>
-          <Image source={previous}/>
+          <Image style={styles.controller} source={previous}/>
         </TouchableOpacity>
         <TouchableOpacity onPress={togglePlayback} style={styles.button}>
           <LinearGradient
@@ -38,14 +39,14 @@ const Controller = ({ togglePlayback, skipToPrevious, skipToNext }) => {
               style={ styles.gradient }
           >
             {playbackState === TrackPlayer.STATE_PLAYING ||
-            playbackState === TrackPlayer.STATE_BUFFERING ? <AntDesign name="pause" size={50} color={color.white} /> : <MaterialIcons name="play-arrow" size={50} color={color.white} /> }
+            playbackState === TrackPlayer.STATE_BUFFERING ? <AntDesign name="pause" size={moderateScale(50)} color={color.white} /> : <MaterialIcons name="play-arrow" size={moderateScale(50)} color={color.white} /> }
           </LinearGradient>
         </TouchableOpacity>
         <TouchableOpacity onPress={skipToNext}>
-          <Image source={next}/>
+          <Image style={styles.controller} source={next}/>
         </TouchableOpacity>
         <TouchableOpacity>
-          <Image source={random}/>
+          <Image style={styles.controller} source={random}/>
         </TouchableOpacity>
       </View>
   )
@@ -59,15 +60,19 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   button: {
-    width: Platform.OS === 'ios' ? "30%" : "27%",
-    height: 75,
-    borderRadius: 75,
+    width: moderateScale(75),
+    height: moderateScale(75),
+    borderRadius: moderateScale(75),
   },
   gradient: {
     flex: 1,
-    borderRadius: Platform.OS === 'ios' ? 38 : 75,
+    borderRadius: moderateScale(75),
     justifyContent: "center",
     alignItems: "center"
+  },
+  controller: {
+    height: moderateScale(18),
+    width: moderateScale(18)
   }
 });
 

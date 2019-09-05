@@ -13,6 +13,7 @@ import FontAwesome from "react-native-vector-icons/FontAwesome";
 import MusicFiles from "react-native-get-music-files";
 import { MusicProvider } from "../context/MusicContext";
 import TrackPlayer, { usePlaybackState } from "react-native-track-player";
+import { moderateScale } from "react-native-size-matters";
 
 
 
@@ -156,13 +157,14 @@ NowPlaying.navigationOptions = ({ navigation }) => ({
   headerLeft: (
       <TouchableOpacity
         onPress={navigation.getParam("handleModal")}
+        hitSlop={{top: 40, bottom: 40, left: 40, right: 40}}
       >
-        <Image source={Hamburger}/>
+        <Image style={{ height: moderateScale(20), width: moderateScale(20)}} source={Hamburger}/>
       </TouchableOpacity>
   ),
   headerRight: (
-      <TouchableOpacity>
-        <FontAwesome name="heart" size={24} color="white"/>
+      <TouchableOpacity hitSlop={{top: 40, bottom: 40, left: 40, right: 40}}>
+        <FontAwesome name="heart" size={moderateScale(24)} color="white"/>
       </TouchableOpacity>
   ),
   headerTitleStyle: {
@@ -170,7 +172,7 @@ NowPlaying.navigationOptions = ({ navigation }) => ({
     alignSelf:'center',
     flex:1,
     fontFamily: "Avenir-Book",
-    fontSize: 18,
+    fontSize: moderateScale(20),
     color: color.white
   },
   headerStyle: {
@@ -182,7 +184,7 @@ NowPlaying.navigationOptions = ({ navigation }) => ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: Constants.statusBarHeight + 50
+    paddingTop: Constants.statusBarHeight + moderateScale(50)
   },
   content: {
     flex: 1,
