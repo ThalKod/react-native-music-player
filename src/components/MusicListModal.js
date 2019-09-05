@@ -10,6 +10,7 @@ import {
 import PropTypes from "prop-types";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import MusicContext from "../context/MusicContext";
+import { moderateScale } from "react-native-size-matters";
 
 
 import MusicSingle from "../components/MusicSingle";
@@ -32,7 +33,7 @@ const MusicListModal = ({ isModalVisible, closeModal }) => {
           <View style={styles.content}>
             <View style={styles.header}>
               <TouchableOpacity style={styles.closeButton} onPress={closeModal}>
-                <MaterialIcons name="close" size={26} color="black"/>
+                <MaterialIcons name="close" size={moderateScale(26)} color="black"/>
               </TouchableOpacity>
               <Text style={styles.headerTitle}>My Music</Text>
             </View>
@@ -70,20 +71,20 @@ const styles = StyleSheet.create({
     height: "90%",
     padding: "5%",
     backgroundColor: "white",
-    borderTopLeftRadius: 15,
-    borderTopRightRadius: 15,
+    borderTopLeftRadius: moderateScale(15),
+    borderTopRightRadius: moderateScale(15),
   },
   header: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginBottom: 15
+    marginBottom: moderateScale(15)
   },
   closeButton: {
     flex: 1
   },
   headerTitle: {
     flex: 2,
-    fontSize: 24,
+    fontSize: moderateScale(24),
     fontFamily: "Avenir-Roman"
   }
 });

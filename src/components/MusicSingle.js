@@ -9,6 +9,7 @@ import {
 import Proptypes from "prop-types";
 import defaultImg from "../../assets/images/default_music_cover.png";
 import MusicContext from "../context/MusicContext";
+import { moderateScale } from "react-native-size-matters";
 
 const MusicSingle = ({ title, artist, imageUrl, fileName, id }) => {
   const { changeSelected, list } = useContext(MusicContext);
@@ -44,17 +45,17 @@ MusicSingle.propTypes = {
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    marginTop: 15,
-    height: 75,
+    marginTop: moderateScale(15),
+    height: moderateScale(75),
     justifyContent: "space-between",
   },
   imageContainer: {
     height: "100%",
     width: "25%",
-    marginRight: 20
+    marginRight: moderateScale(20)
   },
   image: {
-    borderRadius: 10,
+    borderRadius: moderateScale(10),
     flex: 1,
     width: null,
     height: null,
@@ -67,7 +68,7 @@ const styles = StyleSheet.create({
   textStyle: {
     fontFamily: "Avenir-Black",
     color: "#353840",
-    fontSize: 18
+    fontSize: moderateScale(18)
   }
 });
 
