@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component MusicSingle Should correctly render the component 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 117.85714285714286,
+      "justifyContent": "space-between",
+      "marginTop": 23.57142857142857,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": "100%",
+        "marginRight": 31.428571428571427,
+        "width": "25%",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "imageurl",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 15.714285714285714,
+          "flex": 1,
+          "height": null,
+          "resizeMode": "cover",
+          "width": null,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 2,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#353840",
+          "fontFamily": "Avenir-Black",
+          "fontSize": 28.285714285714285,
+        }
+      }
+    >
+      Test music title
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#353840",
+            "fontFamily": "Avenir-Black",
+            "fontSize": 28.285714285714285,
+          },
+          Object {
+            "fontFamily": "Avenir-Roman",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Artist
+    </Text>
+  </View>
+</View>
+`;

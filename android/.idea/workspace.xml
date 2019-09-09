@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7ef0380-1b89-4296-b644-b8732301d981" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/tests/components/MusicSingle.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/CardMusic.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/CardMusic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/Controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/MusicListModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/MusicListModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/components/MusicSingle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/MusicSingle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/SeekBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/SeekBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/NowPlaying.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screens/NowPlaying.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
             </state>
           </provider>
           <provider editor-type-id="android-manifest" />
@@ -65,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="374" />
     <option name="y" value="23" />
     <option name="width" value="1066" />
@@ -275,7 +265,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
       <provider editor-type-id="android-manifest" />
