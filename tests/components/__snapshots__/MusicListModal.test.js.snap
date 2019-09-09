@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicListModal Should correctly render the component 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderTopLeftRadius": 23.57142857142857,
+          "borderTopRightRadius": 23.57142857142857,
+          "height": "90%",
+          "padding": "5%",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 23.57142857142857,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "black",
+                  "fontSize": 40.85714285714286,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "flex": 2,
+              "fontFamily": "Avenir-Roman",
+              "fontSize": 37.714285714285715,
+            }
+          }
+        >
+          My Music
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "black",
+            "borderBottomWidth": 0.5,
+          }
+        }
+      />
+      <RCTScrollView>
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 117.85714285714286,
+                "justifyContent": "space-between",
+                "marginTop": 23.57142857142857,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "marginRight": 31.428571428571427,
+                  "width": "25%",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../assets/images/default_music_cover.png",
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 15.714285714285714,
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                  "justifyContent": "space-around",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#353840",
+                    "fontFamily": "Avenir-Black",
+                    "fontSize": 28.285714285714285,
+                  }
+                }
+              >
+                Test music title
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#353840",
+                      "fontFamily": "Avenir-Black",
+                      "fontSize": 28.285714285714285,
+                    },
+                    Object {
+                      "fontFamily": "Avenir-Roman",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+              >
+                Unknown Artist
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 117.85714285714286,
+                "justifyContent": "space-between",
+                "marginTop": 23.57142857142857,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "marginRight": 31.428571428571427,
+                  "width": "25%",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../assets/images/default_music_cover.png",
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 15.714285714285714,
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                  "justifyContent": "space-around",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#353840",
+                    "fontFamily": "Avenir-Black",
+                    "fontSize": 28.285714285714285,
+                  }
+                }
+              >
+                Picasso Test
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#353840",
+                      "fontFamily": "Avenir-Black",
+                      "fontSize": 28.285714285714285,
+                    },
+                    Object {
+                      "fontFamily": "Avenir-Roman",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+              >
+                Unknown Artist
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 117.85714285714286,
+                "justifyContent": "space-between",
+                "marginTop": 23.57142857142857,
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "marginRight": 31.428571428571427,
+                  "width": "25%",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../assets/images/default_music_cover.png",
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 15.714285714285714,
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 2,
+                  "justifyContent": "space-around",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#353840",
+                    "fontFamily": "Avenir-Black",
+                    "fontSize": 28.285714285714285,
+                  }
+                }
+              >
+                Test music title 2
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#353840",
+                      "fontFamily": "Avenir-Black",
+                      "fontSize": 28.285714285714285,
+                    },
+                    Object {
+                      "fontFamily": "Avenir-Roman",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+              >
+                Unknown Artist
+              </Text>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</Modal>
+`;
