@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardMusic component Should correctly render the component 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "height": "65%",
+      "paddingTop": "5%",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../assets/images/default_music_cover.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+        "borderRadius": 23.57142857142857,
+        "height": "75%",
+        "width": "80%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "marginTop": "10%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Avenir-Book",
+          "fontSize": 44,
+        }
+      }
+    >
+      Test music title
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Avenir-Book",
+            "fontSize": 44,
+          },
+          Object {
+            "fontSize": 37.714285714285715,
+          },
+        ]
+      }
+    >
+      Unknow Artist
+    </Text>
+  </View>
+</View>
+`;

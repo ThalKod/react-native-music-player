@@ -12,7 +12,6 @@ import { minutesAndSeconds} from "../utils";
 import { moderateScale } from "react-native-size-matters"
 
 
-
 const SeekBar = ({  }) => {
   const [musicLength, setMusicLength] = useState(0);
   const { position } = useTrackPlayerProgress();
