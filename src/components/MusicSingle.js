@@ -39,7 +39,8 @@ MusicSingle.propTypes = {
   title: Proptypes.string,
   artist: Proptypes.string,
   imageUrl: Proptypes.string,
-  filename: Proptypes.string
+  filename: Proptypes.string,
+  id: Proptypes.string,
 };
 
 const styles = StyleSheet.create({
