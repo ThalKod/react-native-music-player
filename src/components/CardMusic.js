@@ -13,7 +13,7 @@ import { moderateScale } from "react-native-size-matters";
 import { color } from "../config";
 
 const CardMusic = () => {
-  const { selected } = useContext(MusicContext);
+  const { selected = {} } = useContext(MusicContext);
 
   const cutText = (string) => {
     let newString = string.substring(0,25);
@@ -23,7 +23,7 @@ const CardMusic = () => {
 
   return(
       <View style={styles.container}>
-          <Image
+        <Image
               style={{
                 alignSelf: 'center',
                 height: "75%",

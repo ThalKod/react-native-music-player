@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7ef0380-1b89-4296-b644-b8732301d981" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/CardMusic.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/CardMusic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/components/SeekBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/SeekBar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +57,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="374" />
     <option name="y" value="23" />
     <option name="width" value="1066" />
     <option name="height" value="827" />
@@ -177,10 +176,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="374" y="23" width="1066" height="827" extended-state="0" />
+    <frame x="0" y="23" width="1066" height="827" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2861328" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2861328" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -193,7 +192,7 @@
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Build" order="5" sideWeight="0.49928468" visible="true" weight="0.33877552" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.49928468" visible="true" weight="0.33877552" />
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
