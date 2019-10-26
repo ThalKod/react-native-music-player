@@ -30,7 +30,7 @@
     "react-native-size-matters": "^0.2.1",
     "react-native-slider": "^0.11.0",
     "react-native-track-player": "^1.1.8",
-    "react-native-unimodules": "^0.4.2",
+    "react-native-unimodules": "^0.6.0",
     "react-native-vector-icons": "^6.6.0",
     "react-native-web": "^0.11.4",
     "react-navigation": "^4.0.10"
