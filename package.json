@@ -19,7 +19,7 @@
     "expo-constants": "^5.0.1",
     "expo-font": "^5.0.1",
     "expo-linear-gradient": "^7.0.1",
-    "graceful-fs": "^4.2.0",
+    "graceful-fs": "^4.2.3",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
