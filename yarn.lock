@@ -3227,10 +3227,10 @@ expo-font@^7.0.0:
   dependencies:
     fontfaceobserver "^2.1.0"
 
-expo-linear-gradient@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-7.0.1.tgz#86b8f22cb76fb1594cce6527c22e3182c7e98b6c"
-  integrity sha512-YJsvA7nx8sMcV1+XhIsqT5+tyHhJi87AxgFW4fBlvUr9gAXhPMvUwkNMPPIkyOpKiEMPuQ7yWS29qwZdOHBGFQ==
+expo-linear-gradient@^8.3.1:
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-8.3.1.tgz#5dd3878c0700035d55241a4a453c5e224acc60ff"
+  integrity sha512-zlWGua8vm7+af4otaSpJlzu0SYIr0aWbL0qICySCDUEKkqig6MqfuI69NYHC0w9ocWZuh2xyj6Rbfy01UqcVSg==
 
 expo-permissions@~8.0.0:
   version "8.0.0"
