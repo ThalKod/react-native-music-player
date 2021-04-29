@@ -1,0 +1,35 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: expo-asset
+    versions:
+    - 8.2.2
+    - 8.3.1
+  - dependency-name: react-native-gesture-handler
+    versions:
+    - 1.10.0
+    - 1.10.1
+    - 1.10.2
+    - 1.9.0
+  - dependency-name: eslint
+    versions:
+    - 6.8.0
+    - 7.20.0
+  - dependency-name: expo-linear-gradient
+    versions:
+    - 9.0.0
+  - dependency-name: expo-font
+    versions:
+    - 9.0.0
+  - dependency-name: react-navigation
+    versions:
+    - 4.4.3
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
